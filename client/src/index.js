@@ -3,14 +3,15 @@ import ReactDOM from "react-dom";
 import "./index.css";
 import App from "./App";
 import * as serviceWorker from "./serviceWorker";
-import { BrowserRouter } from "react-router-dom";
+import { Router } from "react-router-dom";
 import "antd/dist/antd.css";
+import history from "./history";
 
 ReactDOM.render(
   // <React.StrictMode>
-  <BrowserRouter>
+  <Router history={history}>
     <App />
-  </BrowserRouter>,
+  </Router>,
   // </React.StrictMode>,
   document.getElementById("root")
 );
