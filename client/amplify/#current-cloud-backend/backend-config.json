@@ -1,0 +1,10 @@
+{
+  "auth": {
+    "ecommercef0dc8600": {
+      "service": "Cognito",
+      "providerPlugin": "awscloudformation",
+      "dependsOn": [],
+      "customAuth": false
+    }
+  }
+}
